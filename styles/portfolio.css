@@ -1,0 +1,78 @@
+/* General Styles */
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    height: 131px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 28px;
+    margin: 38px 150px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 5px;
+    margin: 38px 150px;
+}
+
+/* Banner Styles */
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: repeat-x;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-section {
+    padding: 26px 221px 45px;
+}
+
+.banner-image {
+    width: 240.28px;
+}
+
+.banner-quote {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-description {
+    font-size: 16px;
+}
+
+.btn-banner {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 17px 24px;
+    border-radius: 5px;
+    margin: 38px 150px;
+}
